@@ -1,0 +1,14 @@
+{
+  "angular-schematics.schematicsDefaultOptions": {
+    "angular-*": {
+      "externalTemplate": true
+    },
+    "angular-component": {
+      "ngOnInit": false
+    },
+    "angular-page": {
+      "skipNgOnInit": true,
+      "eagerLoading": true
+    }
+  }
+}
